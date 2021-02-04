@@ -14,5 +14,5 @@
 "python.linting.pylintEnabled": false,
 "python.linting.flake8Enabled": true,
 "python.formatting.provider": "yapf",
-"python.linting.mypyEnabled": false
+"python.linting.mypyEnabled": true
 }

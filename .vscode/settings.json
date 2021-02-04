@@ -1,3 +1,18 @@
 {
-  "python.pythonPath": "./venv/bin/python3"
+  "python.linting.enabled": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": "meta.function-call.generic",
+            "settings": {
+                "foreground":"#c4c490"
+            }
+        }
+    ]
+},
+"python.pythonPath": "venv/bin/python",
+"python.linting.pylintEnabled": false,
+"python.linting.flake8Enabled": true,
+"python.formatting.provider": "yapf",
+"python.linting.mypyEnabled": false
 }

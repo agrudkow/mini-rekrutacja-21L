@@ -151,6 +151,9 @@ class CityGraph():
 
             # Iteruj dla kolejnych rosnących krawędzi w grafie
             for edge in self.graph.edges:
+                # Jeśli nie ma więcej niepołączonych wierzchołków
+                if len(forest) == 1:
+                    break
                 v_1_index, v_2_index = self.find_vertex_set(forest, edge)
                 # Jeśli wierzchołki należą do tego samego zbioru to pomiń
                 if v_1_index != v_2_index:

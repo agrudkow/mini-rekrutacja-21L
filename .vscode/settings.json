@@ -14,5 +14,6 @@
 "python.linting.pylintEnabled": false,
 "python.linting.flake8Enabled": true,
 "python.formatting.provider": "yapf",
-"python.linting.mypyEnabled": true
+"python.linting.mypyEnabled": true,
+"python.analysis.extraPaths": ["./zad_2"]
 }
